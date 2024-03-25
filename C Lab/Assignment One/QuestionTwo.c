@@ -9,22 +9,23 @@ int main ()
     float x;
 
     // Taking input here
-    printf("Enter four numbers here : \n");
-    printf("--> ");
+    printf("Enter five numbers here : \n");
+    printf("a --> ");
     scanf("%d",&a);
-    printf("--> ");
+    printf("b --> ");
     scanf("%d",&b);
-    printf("--> ");
+    printf("c --> ");
     scanf("%d",&c);
-    printf("--> ");
+    printf("d --> ");
     scanf("%d",&d);
-    printf("--> ");
+    printf("e --> ");
     scanf("%d",&e);
 
     // Solve the eqution here
     x = (a+b-c*d/(float)e);
 
     // Display the output
+    printf("Equation is x = a+b-c*d/e\n");
     printf("x = %0.4f",x);
     
     return 0;

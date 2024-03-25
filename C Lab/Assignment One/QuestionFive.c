@@ -9,7 +9,7 @@ int main ()
     int a,b,temp;
 
     // Take input here
-    printf("\t\t<---------Swapping of two numbers--------->\n");
+    // printf("\t\t<---------Swapping of two numbers--------->\n");
     printf("a -->");
     scanf("%d",&a);
     printf("b -->");

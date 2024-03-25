@@ -11,13 +11,13 @@ int main()
     // Taking input here
     printf("Enter four numbers here : \n");
     printf("--> ");
-    scanf("%d",&num1);
-    printf("--> ");
-    scanf("%d",&num2);
-    printf("--> ");
-    scanf("%d",&num3);
-    printf("--> ");
-    scanf("%d",&num4);
+    scanf("%d %d %d %d",&num1,&num2,&num3,&num4);
+    // printf("--> ");
+    // scanf("%d",&num2);
+    // printf("--> ");
+    // scanf("%d",&num3);
+    // printf("--> ");
+    // scanf("%d",&num4);
 
     // Calculate sum of four numbers
     sum = num1+num2+num3+num4;
