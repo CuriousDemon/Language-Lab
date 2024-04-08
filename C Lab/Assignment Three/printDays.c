@@ -32,7 +32,7 @@ int main ()
         printf("\nSunday\n");
         break;
     default:
-        printf("\nWrong output\n");
+        printf("\nWrong input\n");
         break;
     }
     

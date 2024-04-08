@@ -24,7 +24,7 @@ int main ()
         
     }
     //Display Output
-    printf("The sum of first %d numbers is %d",n,sum);
+    printf("The sum of first %d odd numbers is %d",n,sum);
     
     return 0;
 }
