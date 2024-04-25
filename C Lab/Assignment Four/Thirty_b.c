@@ -7,7 +7,7 @@ int main ()
     printf("Enter number here : ");
     scanf("%d",&n);
     //Print pattern here
-    next = t1 +t2;
+    next = t1 + t2;
     for (int i = 1; i <= n; i++)
     {
         if(i == 1) printf("%d",t1);
