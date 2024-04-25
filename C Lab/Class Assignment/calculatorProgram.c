@@ -11,6 +11,7 @@ void division();
 
 int menu()
 {
+    clearScr();
     int menuVal;
     printf("Enter a number from the list below\n\n");
 
